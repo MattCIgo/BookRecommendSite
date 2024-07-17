@@ -3,16 +3,75 @@
   position: relative;
   background: rgb(126, 91, 91);
   width: 100vw;
-  height: 850px;
-  margin-top: 60px;
+  height: 750px;
+  margin-top: 50px;
+
+  #title{
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
 
   #homeImageDiv{
-    position: absolute;
+    float: left;
     background: rgb(134, 134, 172);
-    height: 400px;
-    width: 25vw;
-    margin-top: 50px;
-    margin-left: 5vw;
+    height: 350px;
+    width: 40vw;
+    margin-left: 2.5vw;
+    margin-right: 5vw;
   }
+
+  p {
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 5vw;
+  }
+}
+
+#recommend {
+  position: relative;
+  background: blue;
+  width: 100vw;
+  height: 450px;
+  overflow: hidden;
+  
+    h2 {
+      height: 40px;
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    #bookName {
+      background: red;
+      width: 40vw;
+      height: 400px;
+      float: left;
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        margin-left: 1vw;
+        margin-right: 1vw;
+      }
+    }
+
+    #bookSynopsis {
+      background: green;
+      width: 60vw;
+      height: 400px;
+      display:inline-block;
+
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
 }
 

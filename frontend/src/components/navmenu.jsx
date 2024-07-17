@@ -7,28 +7,22 @@ const NavMenu = () => {
   return (
     <>
       <nav className={'navMenu'}>
-          <NavLink exact="true" activeclassname="active" to="/">
-            <button type='button' className = {'homeButton'}>Home</button>
+        <h1 id = {'websiteName'}>Website Name</h1>
+           
+        <span>
+          <NavLink>
+            <button type='button' className = {'navMenuButtons'}>Link1</button>
           </NavLink>
-
-          <span id={'websiteName'}>
-            <h1>WebSite Name</h1>
-          </span>
-
-          <span id={'pageButtons'}>
-            <NavLink>
-              <button type='button' className = {'navMenuButtons'}>Link1</button>
-            </NavLink>
-            <NavLink>
-              <button type='button' className = {'navMenuButtons'}>Link2</button>
-            </NavLink>
-            <NavLink>
-              <button type='button' className = {'navMenuButtons'}>Link3</button>
-            </NavLink> 
-            <NavLink>
-              <button type='button' className = {'navMenuButtons'}>Link4</button>
-            </NavLink>
-          </span>
+          <NavLink>
+            <button type='button' className = {'navMenuButtons'}>Link2</button>
+          </NavLink>
+          <NavLink>
+            <button type='button' className = {'navMenuButtons'}>Link3</button>
+          </NavLink> 
+          <NavLink>
+            <button type='button' className = {'navMenuButtons'}>Link4</button>
+          </NavLink>
+        </span>
       </nav>
     </>
   )
