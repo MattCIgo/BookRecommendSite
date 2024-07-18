@@ -1,26 +1,25 @@
 import "./navmenu.css"
 import React from "react";
-import {useState, useEffect} from "react";
 import {NavLink} from "react-router-dom";
 
 const NavMenu = () => {
   return (
     <>
       <nav className={'navMenu'}>
-        <h1 id = {'websiteName'}>Website Name</h1>
+        <h1 id = {'websiteName'}>BookRecommend</h1>
            
         <span>
           <NavLink>
-            <button type='button' className = {'navMenuButtons'}>Link1</button>
+            <button type='button' className = {'navMenuButtons'}>All Recommendations</button>
           </NavLink>
           <NavLink>
-            <button type='button' className = {'navMenuButtons'}>Link2</button>
+            <button type='button' className = {'navMenuButtons'}>Write Review</button>
           </NavLink>
           <NavLink>
-            <button type='button' className = {'navMenuButtons'}>Link3</button>
+            <button type='button' className = {'navMenuButtons'}>Your Favorites</button>
           </NavLink> 
           <NavLink>
-            <button type='button' className = {'navMenuButtons'}>Link4</button>
+            <button type='button' className = {'navMenuButtons'}>Login</button>
           </NavLink>
         </span>
       </nav>

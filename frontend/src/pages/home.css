@@ -1,55 +1,72 @@
 
 #intro {
   position: relative;
-  background: rgb(126, 91, 91);
+  background: #2E3944;
   width: 100vw;
-  height: 750px;
+  height: 650px;
   margin-top: 50px;
 
-  #title{
+  #title {
     position: relative;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 10px;
+    font-family: courier;
+    color: #D3D9D4;
   }
 
   #homeImageDiv{
     float: left;
-    background: rgb(134, 134, 172);
+    background: #124E66;
     height: 350px;
-    width: 40vw;
-    margin-left: 2.5vw;
+    width: 35vw;
     margin-right: 5vw;
+    margin-left: 2.5vw;
+    padding: 7.5px;
+    border-radius: 50px;
+
+    #homeImage {
+      height: 350px;
+      width: 35vw;
+      border-radius: 50px;
+    }
   }
 
   p {
+    color: #748D92;
     text-align: justify;
     font-size: 25px;
+    margin-left: 5vw;
     margin-right: 5vw;
   }
 }
 
+
 #recommend {
   position: relative;
-  background: blue;
+  background: #212A31;
   width: 100vw;
   height: 450px;
   overflow: hidden;
   
     h2 {
+      font-family: courier;
       height: 40px;
       text-align: center;
       margin-top: 25px;
+      color: #D3D9D4;
     }
 
-    #bookName {
-      background: red;
+    #bookDiv {
+      background: #2E3944;
       width: 40vw;
       height: 400px;
       float: left;
 
       h3 {
+        color: #D3D9D4;
         text-align: center;
+        font-family: courier;
       }
 
       p {
@@ -57,21 +74,92 @@
         margin-left: 1vw;
         margin-right: 1vw;
       }
+
+      #bookPhoto {
+        height: 250px;
+        width: 30vw;
+        margin-left: 5vw;
+        margin-top: 10px;
+        border-radius: 50px;
+      }
     }
 
     #bookSynopsis {
-      background: green;
+      background: #28313a;
       width: 60vw;
       height: 400px;
       display:inline-block;
 
       h3 {
+        font-family: courier;
+        color: #D3D9D4;
         text-align: center;
       }
 
-      p {
+      #synopsisBody {
+        position: absolute;
+        color: #748D92;
         text-align: center;
+        margin-left: 4vw;
+        margin-right: 4vw;
+      }
+
+      #recommendButton {
+        position: absolute;
+        background: #748D92;   
+        color: black;
+        width: 10vw;
+        margin-top: 275px;
+        margin-left: 15vw;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: courier;
+        overflow: hidden;
+      }
+
+      #reviewsButton {
+        position: absolute;
+        background: #748D92;   
+        color: black;
+        width: 10vw;
+        margin-top: 275px;
+        margin-left: 35vw;
+        font-size: 12px;
+        border-radius: 5px;
+        font-family: courier;
+        overflow: hidden;
       }
     }
 }
 
+
+#reviewsDiv {
+  position: relative;
+  background: #2E3944;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+
+  h3 {
+    font-family: courier;
+    color: #D3D9D4;
+    margin-left: 10vw;
+  }
+
+  #review {
+    position: relative;
+    background: #212A31;
+    width: 80vw;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10vw;
+    border-radius: 10px;
+    overflow: hidden;
+
+    p {
+      color: #D3D9D4;
+      margin-left: 2vw;
+    }
+  }
+}
