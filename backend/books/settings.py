@@ -129,4 +129,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    'http://bookRecommend-elb-1743519939.us-east-2.elb.amazonaws.com'
 ]
